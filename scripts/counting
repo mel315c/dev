@@ -1,0 +1,5 @@
+#Name: Melanie
+#Email: melanie.cruz21@myhunter.cuny.edu
+#Date: November 27, 2023
+#This counts the .py
+ls -1 | grep ".py" | wc -l

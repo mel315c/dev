@@ -1,0 +1,12 @@
+# Name: Melanie Cruz
+# Email: melanie.cruz21@myhunter.cuny.edu
+# Date: November 19,2023
+# Program that loops from 0 up to 50
+
+ADDI $s0, $zero, 0 #set s0 to 0
+ADDI $s1, $zero, 5  #use to decrement counter, $s0
+ADDI $s2, $zero, 50
+AGAIN: ADD $s0, $s0, $s1
+BEQ $s0, $s2, DONE
+J AGAIN
+DONE:  #To break out of the loop 

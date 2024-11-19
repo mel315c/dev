@@ -1,0 +1,11 @@
+#Name: Melanie cruz
+#Date: November 27, 2023
+#Email: melanie.cruz21@myhunter.cuny.edu
+vi setupProject
+i
+mkdir projectFiles
+cd projectFiles
+mkdir source
+mkdir data
+mkdir results
+:wq
